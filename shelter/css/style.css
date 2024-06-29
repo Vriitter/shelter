@@ -1,0 +1,19 @@
+html {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+*, 
+*::after, 
+*::before {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 160%;
+   color: #4c4c4c;
+}
