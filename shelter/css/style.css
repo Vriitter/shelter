@@ -42,6 +42,46 @@ body {
    color: #545454;
 }
 
+.btn-primary {
+   display: inline-block;
+   font-family: 'Georgia';
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 130%;
+   letter-spacing: 0.06em;
+   color: #292929;
+
+   padding: 15px 45px;
+   background-color: #f1cdb3;
+   border-radius: 100px;
+}
+
+.btn-primary:hover {
+   background-color: #fddcc4;
+   transition: all .5s;
+}
+
+.btn-secondary {
+   display: inline-block;
+   font-family: 'Georgia';
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 110%;
+   letter-spacing: 0.06em;
+   color: #292929;
+
+   padding: 15px 42px;
+   border: 2px solid #f1cdb3;
+   border-radius: 100px;
+   background: transparent;
+}
+
+.btn-secondary:hover {
+   background-color: #fddcc4;
+   transition: all .5s;
+   border: 2px solid #fddcc4;
+}
+
 /* HEADER */
 .header {
    padding-top: 30px;
@@ -118,28 +158,9 @@ body {
    margin-bottom: 42px;
 }
 
-.btn-primary {
-   display: inline-block;
-   font-family: 'Georgia';
-   font-weight: 400;
-   font-size: 17px;
-   line-height: 130%;
-   letter-spacing: 0.06em;
-   color: #292929;
-
-   padding: 15px 45px;
-   background-color: #f1cdb3;
-   border-radius: 100px;
-}
-
-.btn-primary:hover {
-   background-color: #fddcc4;
-   transition: all .5s;
-}
-
 /* ABOUT */
 .about {
-   padding: 80px 100px;
+   padding: 80px 0 100px;
    background: #fff;
 }
 
@@ -157,4 +178,70 @@ body {
 .about__title,
 .about__text:first-of-type {
    margin-bottom: 25px;
+}
+
+/* OUR_FRIENDS */
+.our-friends {
+   padding: 80px 0 100px;
+   background-color: #f6f6f6;
+   text-align: center;
+}
+
+.our-friends__title {
+   margin-bottom: 60px;
+}
+
+.our-friends__inner{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/* SLIDER */
+.slider__btn {
+   border-radius: 100px;
+   border: 2px solid #f1cdb3;
+   padding: 23px 19px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+   margin-bottom: 60px;
+}
+
+.slider__btn:hover {
+   background-color: #fddcc4;
+   border: 2px solid #fddcc4;
+   transition: all .5s;
+}
+
+.slider__item {
+   display: flex;
+   gap: 90px;
+   margin-bottom: 60px;
+}
+
+.slider__card {
+   width: 270px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   background-color: #fafafa;
+   border-radius: 9px;
+   padding-bottom: 30px;
+}
+
+.slider__card-title {
+   font-family: 'Georgia';
+   font-weight: 400;
+   font-size: 20px;
+   letter-spacing: 0.06em;
+   text-align: center;
+   color: #545454;
+}
+
+.slider__card-btn {
+   width: 187px;
+   height: 52px;
 }
