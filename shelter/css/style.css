@@ -15,7 +15,7 @@ a {
 }
 
 body {
-   font-family: 'Arial';
+   font-family: 'Arial', sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 15px;
@@ -33,6 +33,16 @@ body {
    background: url(../img/hero-bg.jpg) center/ cover no-repeat;
 }
 
+.title-h2 {
+   font-family: 'Georgia';
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 130%;
+   letter-spacing: 0.06em;
+   color: #545454;
+}
+
+/* HEADER */
 .header {
    padding-top: 30px;
    margin-bottom: 90px;
@@ -83,6 +93,7 @@ body {
    text-decoration-thickness: 3px;
 }
 
+/* NOT-ONLY */
 .not-only__inner {
    display: flex;
    justify-content: space-between; 
@@ -124,4 +135,26 @@ body {
 .btn-primary:hover {
    background-color: #fddcc4;
    transition: all .5s;
+}
+
+/* ABOUT */
+.about {
+   padding: 80px 100px;
+   background: #fff;
+}
+
+.about__inner {
+   display: flex;
+   gap: 120px;
+   justify-content: center;
+}
+
+.about__descr {
+   max-width: 430px;
+   padding: 14px 0;
+}
+
+.about__title,
+.about__text:first-of-type {
+   margin-bottom: 25px;
 }
