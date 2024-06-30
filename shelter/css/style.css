@@ -1,6 +1,7 @@
 html {
    box-sizing: border-box;
    scroll-behavior: smooth;
+   cursor: url('../img/cursor.svg'), auto;
 }
 
 *, 
@@ -12,6 +13,10 @@ html {
 a {
    color: inherit;
    text-decoration: none;
+}
+
+a:hover {
+   cursor: url('../img/cursor-hover.svg'), auto;
 }
 
 body {
@@ -60,6 +65,7 @@ body {
 .in-addition__link:hover {
    background-color: #fddcc4;
    transition: all .5s;
+   cursor: url('../img/cursor-hover.svg'), auto;
 }
 
 .btn-secondary {
@@ -117,6 +123,7 @@ body {
 .header__list-link:hover {
    color: #fafafa;
    transition: all .5s;
+   cursor: url('../img/cursor-hover.svg'), auto;
 }
 
 .header__list-link--active {
@@ -209,6 +216,7 @@ body {
    border: 2px solid #fddcc4;
    transition: all .5s;
    cursor: pointer;
+   cursor: url('../img/cursor-hover.svg'), auto;
 }
 
 .slider__item {
@@ -233,12 +241,14 @@ body {
    background-color: #fff;
    filter: drop-shadow(0 2px 35px rgba(13, 13, 13, 0.04));
    cursor: pointer;
+   cursor: url('../img/cursor-hover.svg'), auto;
 }
 
 .slider__card:hover .btn-secondary {
    background-color: #fddcc4;
    transition: all .5s;
    border: 2px solid #fddcc4;
+   cursor: url('../img/cursor-hover.svg'), auto;
 }
 
 .slider__card-img {
