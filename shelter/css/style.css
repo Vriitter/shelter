@@ -90,6 +90,22 @@ body {
    margin-bottom: 90px;
 }
 
+.header.white-theme {
+   color: #545454;
+   padding: 30px 0;
+}
+
+.header__logo-title.white-theme,
+.header__list.white-theme {
+   color: #545454;
+}
+
+.header__logo-subtitle.white-theme,
+.header__list-link--active.white-theme,
+.header__list-link.white-theme:hover {
+   color: #292929;
+}
+
 .header__inner {
    height: 60px;
    display: flex;
