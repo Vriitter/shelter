@@ -92,7 +92,12 @@ body {
 
 .header.white-theme {
    color: #545454;
-   padding: 30px 0;
+   padding: 33px 0 30px;
+   margin: 0;
+}
+
+.header__nav.white-theme {
+   margin-top: -7px;
 }
 
 .header__logo-title.white-theme,
@@ -440,4 +445,21 @@ body {
  .footer__link:hover .footer__link-text {
    color: #fff;
    transition: all .5s;
+ }
+
+ /*** PETS PAGE ***/
+ .main__pets {
+   background-color: #f6f6f6;
+   padding: 80px 0 100px;
+ }
+
+ .pets__title {
+   text-align: center;
+   margin-bottom: 56px;
+ }
+
+ .pets__cards {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px 40px;
  }
