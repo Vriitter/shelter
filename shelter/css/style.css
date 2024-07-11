@@ -349,6 +349,11 @@ body {
    margin-bottom: 20px;
 }
 
+.help__item {
+   display: block;
+   width: 170px;
+}
+
 .help__item-title {
    font-family: 'Georgia';
    font-weight: 400;
@@ -597,6 +602,9 @@ body {
    .not-only__descr {
       max-width: 460px;
    }
+   .help__list {
+      gap: 59px 55px;
+   }
 }
 
 @media (max-width: 740px) {
@@ -640,8 +648,26 @@ body {
       display: flex;
       margin-bottom: 0;
    }
-   .our-friends__title {
+   .our-friends__title,
+   .help__title {
       margin-bottom: 42px;
+   }
+   .help {
+      padding: 42px 0;
+   }
+   .help__img {
+      width: 50px;
+      height: 50px;
+   }
+   .help__item-title {
+      font-size: 15px;
+      line-height: 110%;
+   }
+   .help__list {
+      gap: 30px;
+   }
+   .help__item {
+      width: 130px;
    }
 }
 
@@ -654,7 +680,8 @@ body {
       margin-bottom: 105px;
       text-align: center;
    }
-   .title-h2{
+   .not-only__title,
+   .title-h2 {
       text-align: center;
       font-size: 25px;
       letter-spacing: 0.06em;
