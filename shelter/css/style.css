@@ -349,11 +349,6 @@ body {
    margin-bottom: 20px;
 }
 
-.help__item {
-   display: block;
-   width: 170px;
-}
-
 .help__item-title {
    font-family: 'Georgia';
    font-weight: 400;
@@ -581,6 +576,10 @@ body {
 @media (max-width: 1055px) {
    .slider__card:last-child {
       display: none;
+   }
+   .help__item {
+      display: block;
+      width: 170px;
    }
 }
 
