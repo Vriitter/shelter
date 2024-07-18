@@ -675,6 +675,7 @@ body {
       flex-direction: column;
    }
    .slider__inner {
+      max-width: 320px;
       margin-bottom: 20px;
    }
    .slider__btn {
@@ -707,7 +708,7 @@ body {
       gap: 30px;
    }
    .help__item {
-      width: 130px;
+      max-width: 130px;
    }
    .in-addition {
       padding: 42px 0;
