@@ -634,7 +634,10 @@ body {
       margin-bottom: 30px;
    }
    .main__pets {
-      padding-top: 60px;
+      padding: 60px 0 70px;
+   }
+   .pets__cards {
+      margin-bottom: 40px;
    }
 }
 
@@ -756,6 +759,9 @@ body {
    .footer__blocks {
       margin-bottom: 40px;
    }
+   .pets__cards {
+      margin-bottom: 42px;
+   }
 }
 
 @media (max-width: 400px) {
@@ -802,7 +808,7 @@ body {
       margin-bottom: 0;
    }
    .main__pets {
-      padding-top: 42px;
+      padding: 42px 0;
    }
    .pets__title {
       margin-bottom: 42px;
