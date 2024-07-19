@@ -20,13 +20,18 @@
                   <h2 class="header__logo-title">Cozy House</h2>
                   <p class="header__logo-subtitle">Shelter for pets in Boston</p>
                </a>
+               <button class="header__burger-menu">
+                  <span class="header__burger-menu-item"></span>
+                  <span class="header__burger-menu-item"></span>
+                  <span class="header__burger-menu-item"></span>
+               </button>
                <nav class="header__nav">
                   <ul class="header__list">
                      <li class="header__list-item">
                         <a class="header__list-link header__list-link--active" href="./index.html">About the shelter</a>
                      </li>
                      <li class="header__list-item">
-                        <a class="header__list-link" href="./pets.html" target="_blank">Our pets</a>
+                        <a class="header__list-link" href="./pets.html">Our pets</a>
                      </li>
                      <li class="header__list-item">
                         <a class="header__list-link" href="#help">Help the shelter</a>
@@ -47,7 +52,7 @@
                   <h1 class="not-only__title">Not only people <br> need a house</h1>
                   <p class="not-only__text">We offer to give a chance to a little and nice puppy with an extremely wide
                      and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                  <a class="btn-primary" href="#our-friends">Make a friend</a>
+                  <a class="not-only__btn btn-primary" href="#our-friends">Make a friend</a>
                </div>
                <img class="not-only__img" src="./img/start-screen-puppy.png" alt="Puppy">
             </div>
@@ -66,7 +71,7 @@
                      only 20% of them will find a family. The others will continue to live with us and will be waiting
                      for a lucky chance to become dearly loved.</p>
                   <p class="about__text">We feed our wards with the best food and make sure that they do not get sick,
-                     feel comfortable (including psychologically) and well. We are sup=ported by 87 volunteers and 28
+                     feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28
                      employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking
                      care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
                </div>
@@ -84,24 +89,34 @@
                   </svg>
                </button>
                <div class="slider__inner">
-                  <div class="slider__item">
-                     <article class="slider__card">
-                        <img class="slider__card-img" src="./img/pets-katrine.png" alt="cat">
-                        <h3 class="slider__card-title">Katrine</h3>
-                        <a href="" class="slider__card-btn btn-secondary">Learn more</a>
-                     </article>
-                     <article class="slider__card">
-                        <img class="slider__card-img" src="./img/pets-jennifer.png" alt="puppy">
-                        <h3 class="slider__card-title">Jennifer</h3>
-                        <a href="" class="slider__card-btn btn-secondary">Learn more</a>
-                     </article>
-                     <article class="slider__card">
-                        <img class="slider__card-img" src="./img/pets-woody.png" alt="dog">
-                        <h3 class="slider__card-title">Woody</h3>
-                        <a href="" class="slider__card-btn btn-secondary">Learn more</a>
-                     </article>
-                  </div>
+                  <article class="slider__card">
+                     <img class="slider__card-img" src="./img/pets-katrine.png" alt="cat">
+                     <h3 class="slider__card-title">Katrine</h3>
+                     <a href="" class="slider__card-btn btn-secondary">Learn more</a>
+                  </article>
+                  <article class="slider__card">
+                     <img class="slider__card-img" src="./img/pets-jennifer.png" alt="puppy">
+                     <h3 class="slider__card-title">Jennifer</h3>
+                     <a href="" class="slider__card-btn btn-secondary">Learn more</a>
+                  </article>
+                  <article class="slider__card">
+                     <img class="slider__card-img" src="./img/pets-woody.png" alt="dog">
+                     <h3 class="slider__card-title">Woody</h3>
+                     <a href="" class="slider__card-btn btn-secondary">Learn more</a>
+                  </article>
 
+               </div>
+               <div class="slider__buttons">
+                  <button class="slider__btn slider__buttons-item">
+                     <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
+                     </svg>
+                  </button>
+                  <button class="slider__btn slider__buttons-item">
+                     <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 4V2L11 2V0L14 3L11 6V4L0 4Z" fill="#292929" />
+                     </svg>
+                  </button>
                </div>
 
                <button class="slider__btn">
@@ -248,7 +263,7 @@
       </div>
    </footer>
 
+   <script src="./js/index.js"></script>
 </body>
-<script src="./js/index.js"></script>
 
 </html>
