@@ -701,16 +701,13 @@ body {
       width: 260px;
       height: auto;
    }
-   .slider__card:nth-child(4),
    .slider__card:nth-child(5),
-   .slider__card:nth-child(6),
-   .slider__card:nth-child(7) {
+   .slider__card:nth-child(6) {
       display: none;
    }
-   .slider__card:nth-child(2) {
-      display: flex;
-   }
 }
+
+
 
 @media(max-width: 450px) {
    .our-friends__inner {
