@@ -234,6 +234,7 @@ body {
 }
 
 .about__title {
+   max-width: 315px;
    margin-bottom: 24px;
 }
 
@@ -584,6 +585,14 @@ body {
    .not-only__btn {
       margin: 0 auto;
    }
+   .about__inner {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 80px;
+   }
+   .about__descr {
+      padding: 0;
+   }
 }
 
 @media (max-width: 767px) {
@@ -636,7 +645,30 @@ body {
       margin-bottom: 105px;
       text-align: center;
    }
-
+   .about {
+      padding: 42px 0;
+   }
+   .about__inner {
+      gap: 42px;
+   }
+   .about__title {
+      max-width: 220px;
+      margin-right: auto;
+      margin-left: auto;
+   }
+   .about__descr {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      text-align: justify;
+   }
+   .about__text:first-of-type {
+      margin-bottom: 22px;
+  }
+   .about__img {
+      width: 260px;
+      height: 353px;
+   }
 }
 
 
