@@ -254,12 +254,26 @@ body {
 }
 
 .our-friends__inner{
+   position: relative;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
+}
+
+.our-friends .btn-primary {
+   width: 261px;
+   margin: 0 auto;
 }
 
 /* SLIDER */
+.slider__btn-wrapper {
+   width: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 60px;
+}
+
 .slider__btn {
    border-radius: 100px;
    border: 2px solid #f1cdb3;
@@ -268,7 +282,6 @@ body {
    align-items: center;
    justify-content: center;
    background-color: transparent;
-   margin-bottom: 60px;
 }
 
 .slider__btn:hover {
@@ -283,7 +296,7 @@ body {
    display: flex;
    width: 990px;
    justify-content: space-between;
-   margin: 0 12px 60px;
+   margin-bottom: 60px;
 }
 
 .slider__card {
@@ -331,10 +344,10 @@ body {
    margin-top: 2px;
 }
 
-.slider__buttons {
+/* .slider__buttons {
    display: none;
    gap: 80px;
-}
+} */
 
 /* HELP */
 .help {
