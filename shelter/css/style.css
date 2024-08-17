@@ -234,7 +234,10 @@ body {
    height: 408px;
 }
 
-.about__title,
+.about__title {
+   margin-bottom: 24px;
+}
+
 .about__text:first-of-type {
    margin-bottom: 25px;
 }
@@ -260,7 +263,7 @@ body {
 .slider__btn {
    border-radius: 100px;
    border: 2px solid #f1cdb3;
-   padding: 23px 19px;
+   padding: 21px 17px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -280,7 +283,7 @@ body {
    display: flex;
    width: 990px;
    justify-content: space-between;
-   margin: 0 12px 58px;
+   margin: 0 12px 60px;
 }
 
 .slider__card {
@@ -288,7 +291,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 30px;
+   gap: 28px;
    background-color: #fafafa;
    border-radius: 9px;
    padding-bottom: 30px;
@@ -325,6 +328,7 @@ body {
 .slider__card-btn {
    width: 187px;
    height: 52px;
+   margin-top: 2px;
 }
 
 .slider__buttons {
@@ -352,7 +356,7 @@ body {
 }
 
 .help__img {
-   margin-bottom: 20px;
+   margin-bottom: 21px;
 }
 
 .help__item-title {
@@ -396,13 +400,13 @@ body {
    font-size: 15px;
    line-height: 110%;
    letter-spacing: 0.06em;
-   margin-bottom: 20px;
+   margin-bottom: 19px;
 }
 
 .in-addition__link {
    max-width: 349px;
    display: flex;
-   gap: 15px;
+   gap: 16px;
    padding: 10px 14px;
    background-color: #f1cdb3;
    border-radius: 9px;
