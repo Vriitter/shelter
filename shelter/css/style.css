@@ -49,17 +49,19 @@ body {
 }
 
 .btn-primary {
-   display: inline-block;
+   display: block;
+   width: 207px;
+   height: 52px;
+   border-radius: 100px;
+
    font-family: 'Georgia';
    font-weight: 400;
    font-size: 17px;
-   line-height: 130%;
+   line-height: 52px;
+   text-align: center;
    letter-spacing: 0.06em;
    color: #292929;
-
-   padding: 15px 45px;
    background-color: #f1cdb3;
-   border-radius: 100px;
 }
 
 .btn-primary:hover,
@@ -162,7 +164,7 @@ body {
 .header__burger-menu {
    display: none;
    flex-direction: column;
-   gap: 10px;
+   gap: 8px;
    background: transparent;
    border: none;
 }
@@ -190,6 +192,7 @@ body {
 }
 
 .not-only__title {
+   max-width: 310px;
    font-family: 'Georgia';
    font-weight: 400;
    font-size: 44px;
@@ -550,7 +553,99 @@ body {
    transition: ease-in-out .3s;
 }
 
-@media (max-width: 1275px) {
+/* ADAPTIVE */
+@media (max-width: 1199px) {
+   .container {
+      width: 100%;
+      padding: 0 30px;
+   }
+   .header {
+      margin-bottom: 0;
+   }
+   .not-only__inner {
+      flex-direction: column;
+      align-items: center;
+   }
+   .not-only__descr {
+      max-width: 100%;
+      margin: 60px 0 100px;
+   }
+}
+
+@media (max-width: 768px) {
+   .not-only__descr {
+      max-width: 460px;
+   }
+   .not-only__img {
+      width: 569px; 
+      height: 593px;
+      align-self: end;
+   }
+   .not-only__btn {
+      margin: 0 auto;
+   }
+}
+
+@media (max-width: 767px) {
+   .header__inner {
+      align-items: center;
+   }
+   .header__nav {
+      display: none;
+   }
+   .header__burger-menu {
+      display: flex;
+   }
+   .not-only__img {
+      width: 469px; 
+      height: 493px;
+      align-self: center;
+   }
+}
+
+
+@media (max-width: 550px) {
+   .container {
+      padding: 0 10px;
+   }
+   .header__logo {
+      margin-top: 4px;
+   }
+   .header__inner {
+      padding-left: 10px;
+      padding-right: 4px;
+   }
+   .title-h2,
+   .not-only__title {
+      text-align: center;
+      font-size: 25px;
+      letter-spacing: 0.06em;
+   }
+   .not-only__title {
+      width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .not-only__img {
+      width: 260px; 
+      height: 271px;
+      align-self: end;
+   }
+   .not-only__descr {
+      width: 100%;
+      margin-bottom: 105px;
+      text-align: center;
+   }
+
+}
+
+
+
+
+
+
+
+/* @media (max-width: 1275px) {
    .pets__cards {
       justify-content: center;
    }
@@ -831,4 +926,4 @@ body {
       width: 280px; 
    }
 }
-
+ */
