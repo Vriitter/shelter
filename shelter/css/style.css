@@ -465,7 +465,7 @@ body {
 }
 
 .footer_block:last-of-type {
-   padding-left: -5px;
+   margin-left: -2px;
 }
 
 .footer_block:last-of-type .footer__title,
@@ -474,8 +474,9 @@ body {
 }
 
 .footer__title {
-   color: #fff;
+   max-width: 280px;
    margin-bottom: 40px;
+   color: #fff;
 }
 
 .footer__link {
@@ -483,6 +484,10 @@ body {
    gap: 20px;
    align-items: center;
    margin-bottom: 40px;
+}
+
+.footer__link svg {
+   display: inline;
 }
 
 .footer__link:last-child {
@@ -502,6 +507,10 @@ body {
  .footer__link:hover .footer__link-text {
    color: #fff;
    transition: all .5s;
+ }
+
+ .footer__link-text {
+   max-width: 300px;
  }
 
  /*** PETS PAGE ***/
@@ -601,6 +610,20 @@ body {
       flex-direction: column-reverse;
       gap: 62px;
   }
+  .footer {
+      padding-top: 30px;
+   }
+   .footer__inner {
+      flex-direction: column;
+      align-items: center;
+   }
+   .footer__blocks {
+      margin: 0 34px 63px;
+      gap: 80px;
+   }
+   .footer_block {
+      margin-top: 0;
+   }
 }
 
 @media (max-width: 768px) {
@@ -626,6 +649,15 @@ body {
    .our-friends {
       padding: 80px 0 100px;
    }
+   .footer {
+      padding-top: 30px;
+   }
+   .footer__blocks {
+      gap: 42px;
+   }
+   .footer__title {
+      max-width: 340px;
+   }
 }
 
 @media (max-width: 767px) {
@@ -645,6 +677,10 @@ body {
    }
    .slider__card:nth-of-type(2) {
       display: none;
+   }
+   .footer__blocks {
+      margin-left: 0;
+      margin-right: 0;
    }
 }
 
@@ -776,6 +812,31 @@ body {
       margin: 0 10px;
       text-align: justify;
     }
+    .footer__blocks {
+      flex-direction: column;
+      justify-content: center;
+      gap: 39px;
+      margin: 0 0 43px;
+   }
+   .footer__title {
+      width: 270px;
+      margin-right: auto;
+      margin-left: auto;
+   }
+   .footer__link  {
+      justify-content: center;
+   }
+   .footer_block:last-of-type .footer__link {
+     justify-content: start;
+   }
+   .footer__img {
+      width: 260px;
+      height: 269px;
+   }
+   .footer_block:last-of-type .footer__title, 
+   .footer_block:last-of-type .footer__link:first-of-type {
+      margin-bottom: 38px;
+   }
 }
 
 @media (max-width: 350px) {
@@ -784,10 +845,6 @@ body {
       margin-right: auto;
     }
 }
-
-
-
-
 
 
 
